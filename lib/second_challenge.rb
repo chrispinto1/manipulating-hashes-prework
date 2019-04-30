@@ -8,9 +8,7 @@ def second_challenge
 
   #code your solution here!
 
-  groceries.each do |name , value|
-    value.each do |names, data|
-      puts names.values
-    end
-  end
+  array = []
+  array << groceries.values
+  return array.flatten
 end
